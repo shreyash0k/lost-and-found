@@ -12,39 +12,6 @@ export interface Item {
 
 // Initial sample data
 const sampleItems: Item[] = [
-  {
-    id: 1,
-    type: "lost",
-    title: "Blue Backpack",
-    location: "Central Park",
-    date: "2025-04-01",
-    category: "Accessories",
-    description: "A blue backpack with a laptop and books inside",
-    contact: "user1@example.com",
-    createdAt: "2025-04-01T10:30:00Z",
-  },
-  {
-    id: 2,
-    type: "found",
-    title: "House Keys",
-    location: "Main Street Cafe",
-    date: "2025-03-30",
-    category: "Other",
-    description: "A set of house keys with a red keychain",
-    contact: "user2@example.com",
-    createdAt: "2025-03-30T14:15:00Z",
-  },
-  {
-    id: 3,
-    type: "lost",
-    title: "iPhone 15",
-    location: "Downtown Bus Station",
-    date: "2025-03-29",
-    category: "Electronics",
-    description: "A black iPhone 15 with a cracked screen protector",
-    contact: "user3@example.com",
-    createdAt: "2025-03-29T09:45:00Z",
-  },
 ]
 
 // Get items from localStorage or use sample data if none exist
